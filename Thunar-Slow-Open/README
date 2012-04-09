@@ -1,0 +1,2 @@
+The patch named thunar-slow-open-precompile.patch is made for patching source code prior to compiling, for use in EBUILDS. 
+The patch named thunar-slow-open-installed.patch is made for users to apply if their binary package of gvfs hasn't already been patched.

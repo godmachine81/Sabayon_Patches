@@ -1,0 +1,17 @@
+--- a/daemon/network.mount.in	2012-04-09 00:34:17.936987747 -0500
++++ b/daemon/network.mount.in	2012-04-03 19:42:43.905290139 -0500
+@@ -1,4 +1,4 @@
+ [Mount]
+ Type=network
+ Exec=@libexecdir@/gvfsd-network
+-AutoMount=true
++AutoMount=false
+--- a/smb-browse.mount.in	2012-04-09 00:34:51.478988343 -0500
++++ b/smb-browse.mount.in	2012-04-03 19:40:33.950287135 -0500
+@@ -1,5 +1,5 @@
+ [Mount]
+-Type=smb-network;smb-server
++Type=smb-server
+ Exec=@libexecdir@/gvfsd-smb-browse
+ DBusName=org.gtk.vfs.mountpoint.smb_browse
+ AutoMount=false
