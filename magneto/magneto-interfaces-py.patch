@@ -1,5 +1,5 @@
---- /tmp/entropy/magneto/src/magneto/core/interfaces.py	2012-04-09 22:21:22.097174967 -0500
-+++ /usr/lib/entropy/magneto/magneto/core/interfaces.py	2012-04-09 22:07:19.268151459 -0500
+--- a/usr/lib/entropy/magneto/magneto/core/interfaces.py	2012-04-09 22:21:22.097174967 -0500
++++ b/usr/lib/entropy/magneto/magneto/core/interfaces.py	2012-04-09 22:07:19.268151459 -0500
 @@ -201,13 +201,13 @@
          )
  
