@@ -3,6 +3,6 @@ Applies to: Magneto, Rigo, Entropy v1.0rc97
 
 Allows Rigo to run as the System's Package manager getting rid of Sulfur finally! Rigo currently doesn't elevate privs needed to install/update pkgs, so we also call gksudo from magneto here. If you prefer gksu or kdesu/kdesudo then just alter the patch to contain your prefered method. Rigo *hopefully* will implement a working feature for elevating to root user for entropy manipulation without depending on these outside methods. After all this release still intends to use Sulfur for the Package Manager. 
  
-This also gets rid of the annoying libnotify popup messages at the initial start of magneto:  {Sabayon Update Service loaded, Entropy DBUS service loaded your Sabayon will notify you once updates are available)
+This also gets rid of the annoying libnotify popup messages at the initial start of magneto:  (Sabayon Update Service loaded, Entropy DBUS service loaded your Sabayon will notify you once updates are available)
 
 Lance Poore <linuxsociety@gmail.com>
